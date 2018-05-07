@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href = "style.css" rel= "stylesheet">
+</head>
+<body>
+<h1 id = "top">Wikipedia Search</h1>
+<form role = "search">
+    <div class = "row">
+        <input class = "col s10 search" type= "search" id= "mySearch" name = "q" placeholder= "Search the site..." size= "40" required>
+        <input class = "reset btn col s1" type = "reset" value = "X" id ="reset">
+    </div>
+</form>
+<div id = "buttons">
+    <button class = "btn" id = "button">Search</button>
+    <a href = "https://en.wikipedia.org/wiki/Special:Random" target ='_blank'><button class = "btn" id = "luckyButton">I'm feeling lucky</button></a>
+</div>
+<div class="row">
+    <div id= "searchResults"></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src = "app.js"></script>
+</body>
+
+</html>

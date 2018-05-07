@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#buttons {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4em;
+}
+
+button {
+    margin: 1em;
+}
+
+.row{
+    margin: auto;
+    color: black;
+    padding-left: 20%;
+    padding-right: 2em;
+}
+
+ a{
+    color: black;
+    font-size: 1.4em;
+ }
+
+ .backtop {
+     width: 20%;
+ }
+
+ .reset{
+    margin:auto;
+ }
+
+ .noResults{
+    text-align: center;
+ }
+
+ 
+
